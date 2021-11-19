@@ -1,26 +1,3 @@
-/* Crear un Programa que calcule los aumentos de sueldo de los empleados dependiendo
-el área en donde se desarrollan. Solicitar el nombre apellido del empleado  
-luego mostrar opciones para que seleccione el área y la categoría.
-Realizar el calculo del aumento de sueldo que le corresponde.
-imprimir la ficha del empleado con :
-Nombre
-Fecha de Nacimiento
-Área
-Categoría
-Años de antigüedad
-Sueldo actual
-Porcentaje de aumento
-Sueldo con el aumento
-
-Nota : los datos deben solicitarse o darle opción a que los seleccione 
-Categoría    Aumento
-A                     18%
-B                      12%
-C                       9%
-D                       6%
-**/
-
-
     import java.util.Scanner;
 
     public class Switch {
