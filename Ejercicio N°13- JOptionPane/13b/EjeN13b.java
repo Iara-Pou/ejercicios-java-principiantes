@@ -1,22 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ejen13b;
-
-/*
-B)Ingrese por teclado el puntaje de un alumno que ha postulado a la Universidad, 
-visualice un mensaje “Alumno Ingresado” si el puntaje obtenido es mayor a 500.
-Solicitar nombre del alumno y tres notas (hacer promedio)
-Mostrar y solicitar valores utilizando JOPTIONPANE
- */
 import javax.swing.JOptionPane;
 public class EjeN13b {
 
     public static void main(String[] args) {
         //ejercicio de ingreso
-        //CARTEL PARA PEDIR NOMBRE, CARTEL PARA PEDIR PUNTAJE
+        //CARTEL PARA PEDIR PUNTAJE
         int puntos = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingresa tu "
                 + "puntaje obtenido", "INGRESANTES UBA 2021", JOptionPane.PLAIN_MESSAGE));
         //CARTEL QUE MUESTRE SI INGRESÓ O NO

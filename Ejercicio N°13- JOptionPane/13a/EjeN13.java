@@ -2,11 +2,7 @@ package ejen13;
 import javax.swing.JOptionPane;
 
 public class EjeN13 {
-    /*A)Crear una aplicación, que permita el ingreso de 2 números, para luego 
-    calcular la suma, resta, división, multiplicación, división y residuo.
-Mostrar y solicitar valores utilizando JOPTIONPANE
-     */
-    public static void main(String[] args) {
+       public static void main(String[] args) {
         // EJE A
         int a= 0;
         int b= 0;
