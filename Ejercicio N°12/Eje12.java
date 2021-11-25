@@ -13,24 +13,23 @@ public class Eje12 {
         int i = 0;
 
         //Pedir datos
-        do {
+        //comparar datos
+     do {
             System.out.println("Por favor, ingrese los siguientes datos");
             System.out.print("USUARIO: ");
             usuarioIng = leer.nextLine();
             System.out.print("CONTRASEÑA: ");
             contraIng = leer.nextLine();
             i++;
-
-        } //comparar datos
-        while (usuario.equals(usuarioIng) && contra.equals(contraIng) || i == 3);
-
-        if(i==3){
+    } while ((!usuario.equals(usuarioIng) || !contra.equals(contraIng)) && (i!=3));
+        
+     
+        if (   i==3 &&(!usuario.equals(usuarioIng) || !contra.equals(contraIng))  ){
             System.out.println("Acceso denegado ¡Intente más tarde!");
         }
         else
         {
             System.out.println("Acceso permitido ¡Bienvenido!");
-
         }
         
         
