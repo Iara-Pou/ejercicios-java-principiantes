@@ -16,6 +16,16 @@ Mochila  $ 1399.99
  */
 public class EjeClase2210 {
     public static void main(String[] args) {
+    
+//creo vectores        
+    String [] utiles = {"Lapicera", "Cuaderno", "Cartuchera", "Mochila"};
+    double [] precios = {40.5, 139.99, 560.5, 1399.99};
+
+//muestro precios
+    for (int i= 0; i<4; i++){
+    System.out.println(utiles [i]+ ": $"+ precios[i]);
+    
+    }
 
 
     }
